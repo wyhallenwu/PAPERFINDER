@@ -4,5 +4,7 @@ This is the final project of the course data visualization and human computer in
 2021-12-17
 
 - [ ] choose a topic
-- [ ] decide what tools and libs to use
+- [x] decide what tools and libs to use <i>2021-12-18 done</i>
+may be bokeh?
+
 
