@@ -6,5 +6,6 @@ This is the final project of the course data visualization and human computer in
 - [ ] choose a topic
 - [x] decide what tools and libs to use <i>2021-12-18 done</i>
 may be bokeh?
+- [ ] echats can also be a choice
 
 
