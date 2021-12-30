@@ -8,4 +8,11 @@ This is the final project of the course data visualization and human computer in
 
 ### DATASET
 
-There are three datasets in this project including `daily_global_weather_2020.csv` , `us_greenhouse_gas_emission.csv`, `us_air_quality_measures.csv` . 
+Due to the course's requirements, I must create my own dataset. I have no insipration right now, once I have any idea, I will update the detailed topic and dataset as soon as possible.(2021-12-30)  
+**selectable topics:**
+1. analyze the wards with timestamps in LOL?
+    > How many wards and which areas are they live?  
+    > Does some teams have a certain way to visivle wards?  
+    > How wards effect the winning rate?
+2. aerospace and exoplanet analyzing
+3. comments or user behaviours in some social applications
