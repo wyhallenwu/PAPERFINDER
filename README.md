@@ -26,6 +26,11 @@ Abandon all listed topics above.
 ## Project:   
 ### Develop purpose:  
 Trying to make a visualization that can help researchers to quickly find papers they wanted.  
-**Existing problems:** One of the difficulties when searching papers is that it is cumbersome to find the most important related papers, especially a classical paper in an area may have serveral thousands citations. Sometimes we have a latest paper and we want to start with this paper to trace back the related papers.  
+**Existing problems:** One of the difficulties when searching papers is that it is cumbersome to find the most important derivative papers, especially a classical paper in an area may have serveral thousands citations. Sometimes we have a latest paper and we want to start with this paper to trace back the prior papers.  
+### requirements  
+1. python3.7.6
+2. packages are in requirements.txt
+3. Web engine: Chrome 96.0.4664.110
+4. Web driver: https://sites.google.com/chromium.org/driver/home Chromedirver 96.0.4556.45
 ### Functions  
--[ ] crawl the web 
+-[x] crawl the web 
