@@ -6,6 +6,8 @@ def download_with_title(title):
     Args:
         title: The paper's title formatted as a string.
      """
+
+    # TODO(2022-01-01): error handling
     # get the web
     driver = webdriver.Chrome('./web_driver/chromedriver.exe')
     # paper title you want to search

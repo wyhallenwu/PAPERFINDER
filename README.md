@@ -33,4 +33,4 @@ Trying to make a visualization that can help researchers to quickly find papers 
 3. Web engine: Chrome 96.0.4664.110
 4. Web driver: https://sites.google.com/chromium.org/driver/home Chromedirver 96.0.4556.45
 ### Functions  
--[x] crawl the web 
+- [x] crawl the web 
