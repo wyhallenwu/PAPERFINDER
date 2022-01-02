@@ -13,13 +13,8 @@ def download_with_title(title):
 
     # TODO(2022-01-01): error handling
     option = webdriver.ChromeOptions()
-    # option.add_argument('headless')
-    prefs = {
-            'profile.default_content_settings.popups': 0,
-    }
-    option.add_experimental_option('prefs', prefs)
     # get the web
-    driver = webdriver.Chrome(executable_path='./web_driver/chromedriver.exe', chrome_options=option)
+    driver = webdriver.Chrome(executable_path='./web_driver/chromedriver.exe')
     # paper title you want to search
     url = 'https://www.connectedpapers.com/search?q={}'.format(title)
     print('your url is: {}'.format(url))
