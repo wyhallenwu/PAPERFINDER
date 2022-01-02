@@ -34,3 +34,5 @@ Trying to make a visualization that can help researchers to quickly find papers 
 4. Web driver: https://sites.google.com/chromium.org/driver/home Chromedirver 96.0.4556.45
 ### Functions  
 - [x] crawl the web 
+- [ ] different API (via author, title, doi)
+- [ ] first visualization function show recent year's citation variation
