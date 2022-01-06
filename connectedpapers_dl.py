@@ -3,8 +3,9 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
 
-
+# TODO(2021-01-06): make code more modulized such as load_chromedriver 
 def download_with_title(title, path='F:\github\data-visualization-course-project\dataset'):
     """ Download both prior works and derivative works from https://www.connectedpapers.com.
     
@@ -51,6 +52,35 @@ def download_with_title(title, path='F:\github\data-visualization-course-project
     print('succeed')
     driver.quit()
 
+# paperwithcode
+def search_code(title):
+    """search codes on paperwithcode.com. """
+    # get the web
+    driver = webdriver.Chrome('./web_driver/chromedriver.exe')
+    # paper title you want to search
+    option = Options()
+    title = 'Deep Residual Learning for Image Recognition'
+    # get the web
+    driver = webdriver.Chrome(executable_path='./web_driver/chromedriver.exe', chrome_options=option)
+    # paper title you want to search
+    url = 'https://paperswithcode.com'
+    print('your url is: {}'.format(url))
+    # open the page
+    driver.get(url)
+    input_box = driver.find_element(By.XPATH, '//*[@id="id_global_search_input"]')
+    input_box.send_keys(title)
+    driver.find_element(By.XPATH, '//*[@id="id_global_search_form"]/button/span').click()
+    driver.find_element(By.XPATH, '/html/body/div[3]/div[2]/div/div[2]/div/div[1]/h1/a').click()
+    code = driver.find_elements(By.XPATH, '//*[@id="implementations-short-list"]')
+    paper_impl = []
+    for li in code:
+        paper_impl.append(li.find_elements(By.CLASS_NAME, 'paper-impl-cell'))
+    for each in paper_impl[0]:
+        print(each.text)
+    driver.quit()
+
+
 if __name__ == '__main__':
     title = input('please input paper title: ')
-    download_with_title(title)
+    # download_with_title(title)
+    search_code(title)
