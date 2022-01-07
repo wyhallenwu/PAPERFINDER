@@ -1,0 +1,7 @@
+ShakeDrop Regularization for Deep Residual Learning
+--------------------------------------------------
+{'reponame': 'imenurok/ShakeDropofficial', 'star': 21}
+{'reponame': 'tensorflow/models', 'star': 72399}
+{'reponame': 'osmr/imgclsmob', 'star': 2425}
+{'reponame': 'owruby/shake-drop_pytorch', 'star': 47}
+{'reponame': 'Dragonsson/SakeDrop-Pytorch', 'star': 8}

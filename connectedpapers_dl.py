@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 
 # TODO(2021-01-06): make code more modulized such as load_chromedriver 
-def download_with_title(title, path='F:\github\data-visualization-course-project\dataset'):
+def download_with_title(title, path='F:\github\PAPERFINDER\dataset'):
     """ Download both prior works and derivative works from https://www.connectedpapers.com.
     
     Args:
@@ -16,11 +16,12 @@ def download_with_title(title, path='F:\github\data-visualization-course-project
 
     # TODO(2022-01-01): error handling and setting no interface
     option = Options()
-
+    option.add_argument('--headless')
+    option.add_argument('--disable-gpu')
     prefs = {'profile.default_content_settings.popups': 0, 'download.default_directory': path}
     option.add_experimental_option('prefs', prefs)
     # get the web
-    driver = webdriver.Chrome(executable_path='./web_driver/chromedriver.exe', chrome_options=option)
+    driver = webdriver.Chrome(executable_path='./web_driver/chromedriver.exe', options=option)
     # paper title you want to search
     url = 'https://www.connectedpapers.com/search?q={}'.format(title)
     url = url.replace(' ', '%20')
@@ -28,6 +29,7 @@ def download_with_title(title, path='F:\github\data-visualization-course-project
 
     # open the page
     driver.get(url)
+    sleep(2)
     # choose the first search result as default
     driver.find_element(By.XPATH, '//*[@id="open-in-container"]/a[1]').click()
     # switch to another window
@@ -55,13 +57,13 @@ def download_with_title(title, path='F:\github\data-visualization-course-project
 # paperwithcode
 def search_code(title):
     """search codes on paperwithcode.com. """
-    # get the web
-    driver = webdriver.Chrome('./web_driver/chromedriver.exe')
     # paper title you want to search
     option = Options()
+    # option.add_argument('--headless')
+    # option.add_argument('--disable-gpu')
     title = 'Deep Residual Learning for Image Recognition'
     # get the web
-    driver = webdriver.Chrome(executable_path='./web_driver/chromedriver.exe', chrome_options=option)
+    driver = webdriver.Chrome(executable_path='./web_driver/chromedriver.exe', options=option)
     # paper title you want to search
     url = 'https://paperswithcode.com'
     print('your url is: {}'.format(url))
