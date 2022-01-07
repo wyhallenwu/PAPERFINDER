@@ -1,29 +1,34 @@
 import requests
 from bs4 import BeautifulSoup
 
-title = 'ShakeDrop Regularization for Deep Residual Learning'
-title.replace(' ', '+')
-title.replace(':', '%3')
-print('My search title is: ' + title)
-payload = {'q_meta': '', 'q_type': '', 'q': title}
-response = requests.get('https://paperswithcode.com/search', params=payload)
 
-print(response.status_code)
-print('current url: ' + response.url)
+def title_process(title):
+    title.replace(' ', '+')
+    title.replace(':', '%3')
+    print('current search title is: ' + title)
+    return title
 
-bs = BeautifulSoup(response.text, 'html.parser')
-link = bs.find(name='a', attrs={'class': 'badge badge-light'})
-print(link['href'])
-# find paper page
-next_link = 'https://paperswithcode.com' + link['href']
-response = requests.get(next_link)
-# check out
-print(response.status_code)
-print('current url: ' + response.url)
-print('*' * 10)
-bs = BeautifulSoup(response.text, 'html.parser')
-impl_list = bs.find(name='div', attrs={'id': 'implementations-full-list'})
-rows = impl_list.find_all(name='div', attrs={'class': 'row'})
+
+def search_by_title(title):
+    payload = {'q_meta': '', 'q_type': '', 'q': title}
+    response = requests.get('https://paperswithcode.com/search', params=payload)
+    return response
+
+
+def page_parse(response):
+    bs = BeautifulSoup(response.text, 'html.parser')
+    link = bs.find(name='a', attrs={'class': 'badge badge-light'})
+    print(link['href'])
+    # find paper page
+    next_link = 'https://paperswithcode.com' + link['href']
+    response = requests.get(next_link)
+    # check out
+    print(response.status_code)
+    print('current url: ' + response.url)
+    bs = BeautifulSoup(response.text, 'html.parser')
+    impl_list = bs.find(name='div', attrs={'id': 'implementations-full-list'})
+    rows = impl_list.find_all(name='div', attrs={'class': 'row'})
+    return rows
 
 
 def get_repo(row):
@@ -48,7 +53,7 @@ def get_row_info(rows):
     return all_info
 
 
-def add_txt(filename):
+def add_txt(rows, title, filename):
     code_impl = get_row_info(rows)
     with open(filename, 'w+') as f:
         f.write(title + '\n' + '-' * 50 + '\n')
@@ -57,10 +62,19 @@ def add_txt(filename):
             f.write('\n')
 
 
+def process_pipeline(title, download_file='./dataset/result.txt'):
+    print('starting processing...')
+    title = title_process(title)
+    response = search_by_title(title)
+    rows = page_parse(response)
+    add_txt(rows, title, download_file)
+    print('ending processing...')
+
 # TODO(2022-01-07): get tools
 def get_tools(rows):
     pass
 
 
 if __name__ == '__main__':
-    add_txt('./dataset/result.txt')
+    title = input('please input title: ')
+    process_pipeline(str(title))
