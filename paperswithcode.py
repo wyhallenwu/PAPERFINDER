@@ -2,65 +2,80 @@ import time
 
 import requests
 from bs4 import BeautifulSoup
+from mymodule import get_exec_time
 
 
 class PaperWithCode(object):
     """Class includes methods to crawl paperswithcode.com.
 
     Attributes:
-        SEARCH: a constant string 'https://paperswithcode.com/search'
+        BaseLink: a constant string 'https://paperswithcode.com/search'
 
     """
-    def __init__(self):
-        self.SEARCH = 'https://paperswithcode.com/search'
 
-    def title_process(title):
+    def __init__(self):
+        self.BaseLink = 'https://paperswithcode.com/search'
+
+
+    def title_process(self, title):
+        # replace special symbols for searching
         title.replace(' ', '+')
         title.replace(':', '%3')
-        print('current search title is: ' + title)
+        # print('current search title is: ' + title)
         return title
 
-    def search_by_title(title):
+    def search_by_title(self, title):
+        # construct payload
         payload = {'q_meta': '', 'q_type': '', 'q': title}
-        response = requests.get('https://paperswithcode.com/search', params=payload)
+        response = requests.get(self.BaseLink, params=payload)
         return response
 
-    def page_parse(response):
+    def page_parse(self, response):
         bs = BeautifulSoup(response.text, 'html.parser')
-        link = bs.find(name='a', attrs={'class': 'badge badge-light'})
-        print(link['href'])
+        # get paper page link
+        partial_link = bs.find(name='a', attrs={'class': 'badge badge-light'})
+        print(partial_link['href'])
         # find paper page
-        next_link = 'https://paperswithcode.com' + link['href']
-        response = requests.get(next_link)
-        # check out
-        print(response.status_code)
+        paper_link = 'https://paperswithcode.com' + partial_link['href']
+        response = requests.get(paper_link)
+        # check status
+        assert response.status_code == 200
+        # print(response.status_code)
         print('current url: ' + response.url)
+        # parse page
         bs = BeautifulSoup(response.text, 'html.parser')
         impl_list = bs.find(name='div', attrs={'id': 'implementations-full-list'})
         rows = impl_list.find_all(name='div', attrs={'class': 'row'})
         return rows
 
-    def get_repo(row):
+    def get_repo(self, row):
+        """get repo name of a single row."""
         repo_name = row.find(name='a', attrs={'class': 'code-table-link'}).text
         repo_name = ''.join(repo_name.split())
         return repo_name
 
-    def get_star(row):
+    def get_star(self, row):
+        """get stars of a single row."""
         star = row.find(name='div', attrs={'class': 'paper-impl-cell text-nowrap'}).text
         star = ''.join(star.split()).replace(',', '')
         return int(star)
 
-    def get_row_info(rows):
+    def get_row_info(self, rows):
+        """get all code list information."""
         all_info = []
         for row in rows:
-            repo_name = PaperWithCode.get_repo(row)
-            star = PaperWithCode.get_star(row)
-            info = {'repo name': repo_name, 'star': star}
+            repo_name = self.get_repo(row)
+            star = self.get_star(row)
+            repo_link = self.get_repo_link(row)
+            repo_tool = self.get_tools(row)
+            info = {'repo name': repo_name, 'star': star,
+                    'repo link': repo_link, 'repo tool:': repo_tool}
             all_info.append(info)
         return all_info
 
-    def add_txt(rows, title, filename):
-        code_impl = PaperWithCode.get_row_info(rows)
+    def export_result(self, rows, title, filename):
+        """write all crawled information into a file."""
+        code_impl = self.get_row_info(rows)
         with open(filename, 'a+') as f:
             f.write(title + '  Time: ' + time.asctime(time.localtime()) + '\n' + '-' * 50 + '\n')
             for i in code_impl:
@@ -68,23 +83,43 @@ class PaperWithCode(object):
                 f.write('\n')
             f.write('\n')
 
-    def process_pipeline(title, download_file='./dataset/result.txt'):
+    @get_exec_time
+    def process_pipeline(self, title, download_file='./dataset/result.txt'):
+        """processing pipeline of crawling by title."""
         print('starting processing...')
-        title = PaperWithCode.title_process(title)
-        response = PaperWithCode.search_by_title(title)
-        rows = PaperWithCode.page_parse(response)
-        PaperWithCode.add_txt(rows, title, download_file)
+        title = self.title_process(title)
+        response = self.search_by_title(title)
+        rows = self.page_parse(response)
+        self.export_result(rows, title, download_file)
         print('ending processing...')
 
-    # TODO(2022-01-07): get tools
-    def get_tools(rows):
-        pass
+    def get_tools(self, row):
+        tool_img = row.find(name='img')
+        if tool_img is not None:
+            src = tool_img['src']
+            # only care about pytorch and tensorflow
+            if 'pytorch' in str(src):
+                return 'pytorch'
+            elif 'data:image' in str(src):
+                return 'tensorflow'
+        else:
+            return 'unknown'
 
-    # TODO(2021-01-08): get repo link
-    def get_repo_link(row):
-        pass
+    def get_repo_link(self, row):
+        repo_link = row.find(name='a', attrs={'class': 'code-table-link'})['href']
+        return repo_link
+
+    def test(self, title):
+        title = self.title_process(title)
+        response = self.search_by_title(title)
+        rows = self.page_parse(response)
+        for row in rows:
+            self.get_tools(row)
 
 
 if __name__ == '__main__':
-    title = input('please input title: ')
-    PaperWithCode.process_pipeline(title)
+    # test sample
+    test = PaperWithCode()
+    title = 'deep residual learning for image recognition'
+    test.process_pipeline(title)
+    # test.test(title)
