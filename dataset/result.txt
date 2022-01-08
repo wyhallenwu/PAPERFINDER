@@ -1,367 +1,369 @@
-deep residual learning for image recognition
+deep residual learning for image recognition  Time: Sat Jan  8 12:42:45 2022
 --------------------------------------------------
-{'reponame': 'tensorflow/models', 'star': 72403}
-{'reponame': 'tensorflow/models', 'star': 72403}
-{'reponame': 'tensorflow/models', 'star': 72402}
-{'reponame': 'fastai/fastai', 'star': 21789}
-{'reponame': 'JaidedAI/EasyOCR', 'star': 13517}
-{'reponame': 'pytorch/vision', 'star': 10655}
-{'reponame': 'fchollet/deep-learning-models', 'star': 7010}
-{'reponame': 'tensorpack/tensorpack', 'star': 6143}
-{'reponame': 'tensorpack/tensorpack', 'star': 6143}
-{'reponame': 'PaddlePaddle/PaddleDetection', 'star': 6105}
-{'reponame': 'labmlai/annotated_deep_learning_pap¡­', 'star': 5851}
-{'reponame': 'yahoo/open_nsfw', 'star': 5542}
-{'reponame': 'PaddlePaddle/PaddleClas', 'star': 3214}
-{'reponame': 'google/flax', 'star': 2521}
-{'reponame': 'osmr/imgclsmob', 'star': 2426}
-{'reponame': 'facebookarchive/fb.resnet.torch', 'star': 2110}
-{'reponame': 'facebook/fb.resnet.torch', 'star': 2110}
-{'reponame': 'qubvel/efficientnet', 'star': 1928}
-{'reponame': 'keras-team/keras-applications', 'star': 1913}
-{'reponame': 'facebookresearch/pycls', 'star': 1822}
-{'reponame': 'deepmind/dm-haiku', 'star': 1641}
-{'reponame': 'ry/tensorflow-resnet', 'star': 1610}
-{'reponame': 'open-mmlab/mmpose', 'star': 1516}
-{'reponame': 'raghakot/keras-resnet', 'star': 1324}
-{'reponame': 'open-mmlab/mmclassification', 'star': 1015}
-{'reponame': 'wenxinxu/resnet-in-tensorflow', 'star': 829}
-{'reponame': 'wenxinxu/resnet_in_tensorflow', 'star': 829}
-{'reponame': 'NVIDIA/retinanet-examples', 'star': 780}
-{'reponame': 'akamaster/pytorch_resnet_cifar10', 'star': 722}
-{'reponame': 'glouppe/info8010-deep-learning', 'star': 710}
-{'reponame': 'deepmodeling/deepmd-kit', 'star': 708}
-{'reponame': 'HHTseng/video-classification', 'star': 681}
-{'reponame': 'researchmm/SiamDW', 'star': 673}
-{'reponame': 'facebookresearch/DomainBed', 'star': 592}
-{'reponame': 'D-X-Y/ResNeXt-DenseNet', 'star': 574}
-{'reponame': 'gcr/torch-residual-networks', 'star': 554}
-{'reponame': 'yoshitomo-matsubara/torchdistill', 'star': 509}
-{'reponame': 'bentrevett/pytorch-image-classifica¡­', 'star': 485}
-{'reponame': 'xiaoyufenfei/LEDNet', 'star': 466}
-{'reponame': 'kyle-dorman/bayesian-neural-network¡­', 'star': 413}
-{'reponame': 'yxgeee/MMT', 'star': 398}
-{'reponame': 'andreasveit/densenet-pytorch', 'star': 379}
-{'reponame': 'DeepMark/deepmark', 'star': 359}
-{'reponame': 'itijyou/ademxapp', 'star': 336}
-{'reponame': 'felixgwu/img_classification_pk_pyto¡­', 'star': 333}
-{'reponame': 'segmentationblwx/sssegmentation', 'star': 275}
-{'reponame': 'kwotsin/TensorFlow-ENet', 'star': 254}
-{'reponame': 'calmisential/TensorFlow2.0_ResNet', 'star': 223}
-{'reponame': 'jiweibo/imagenet', 'star': 181}
-{'reponame': 'peteryuX/arcface-tf2', 'star': 177}
-{'reponame': 'EricAlcaide/MiniFold', 'star': 173}
-{'reponame': 'OlafenwaMoses/IdenProf', 'star': 170}
-{'reponame': 'vietanhdev/open-adas', 'star': 170}
-{'reponame': 'SJTU-Thinklab-Det/r3det-on-mmdetect¡­', 'star': 163}
-{'reponame': 'GKalliatakis/Keras-VGG16-places365', 'star': 156}
-{'reponame': 'MishaLaskin/vq-vae', 'star': 149}
-{'reponame': 'MishaLaskin/vqvae', 'star': 149}
-{'reponame': 'wondonghyeon/protest-detection-viol¡­', 'star': 134}
-{'reponame': 'hongyi-zhang/Fixup', 'star': 131}
-{'reponame': 'facebookresearch/stochastic_gradien¡­', 'star': 128}
-{'reponame': 'OlafenwaMoses/Traffic-Net', 'star': 123}
-{'reponame': 'rtanno21609/AdaptiveNeuralTrees', 'star': 123}
-{'reponame': 'FrancescoSaverioZuppichini/ResNet', 'star': 117}
-{'reponame': 'alrojo/lasagne_residual_network', 'star': 117}
-{'reponame': 'YudeWang/UNet-Satellite-Image-Segme¡­', 'star': 103}
-{'reponame': 'chrhenning/hypercl', 'star': 102}
-{'reponame': 'alexsax/midlevel-reps', 'star': 93}
-{'reponame': 'makatx/YOLO_ResNet', 'star': 93}
-{'reponame': 'mingxingtan/efficientnet', 'star': 86}
-{'reponame': 'alecwangcq/KFAC-Pytorch', 'star': 81}
-{'reponame': 'alvarobartt/serving-pytorch-models', 'star': 77}
-{'reponame': 'paperswithcode/paperswithcode-client', 'star': 75}
-{'reponame': 'Mayurji/Image-Classification-PyTorch', 'star': 72}
-{'reponame': 'marload/ConvNets-TensorFlow2', 'star': 71}
-{'reponame': 'hycis/TensorGraph', 'star': 69}
-{'reponame': 'oskyhn/CNNs-Without-Borders', 'star': 67}
-{'reponame': 'sayakpaul/Adaptive-Gradient-Clipping', 'star': 64}
-{'reponame': 'mhagiwara/nanigonet', 'star': 59}
-{'reponame': 'OlafenwaMoses/Action-Net', 'star': 50}
-{'reponame': 'Masao-Taketani/FOTS_OCR', 'star': 49}
-{'reponame': 'ChangweiZhang/Awesome-WindowsML-ONN¡­', 'star': 43}
-{'reponame': 'uclaml/Padam', 'star': 38}
-{'reponame': 'nitinvwaran/UrbanSound8K-audio-clas¡­', 'star': 38}
-{'reponame': 'thughost2/Padam', 'star': 38}
-{'reponame': 'CVxTz/face_age_gender', 'star': 38}
-{'reponame': 'mindspore-ai/models', 'star': 31}
-{'reponame': 'mindspore-ai/models', 'star': 31}
-{'reponame': 'aby2s/sharpmask', 'star': 31}
-{'reponame': 'vlievin/Unet', 'star': 31}
-{'reponame': 'mindspore-ai/models', 'star': 31}
-{'reponame': 'mindspore-ai/models', 'star': 31}
-{'reponame': 'deontaepharr/Residual-Attention-Net¡­', 'star': 30}
-{'reponame': 'km1414/CNN-models', 'star': 29}
-{'reponame': 'priyavrat-misra/xrays-and-gradcam', 'star': 27}
-{'reponame': 'amazon-research/long-short-term-tra¡­', 'star': 27}
-{'reponame': 'Graylab/deepH3-distances-orientatio¡­', 'star': 25}
-{'reponame': 'Lornatang/ResNet-PyTorch', 'star': 25}
-{'reponame': 'anguyen8/sam', 'star': 24}
-{'reponame': 'KellerJordan/ResNet-PyTorch-CIFAR10', 'star': 23}
-{'reponame': 'lixixibj/forecasting-with-time-seri¡­', 'star': 22}
-{'reponame': 'lixixibj/tsImage-forecasting', 'star': 22}
-{'reponame': 'bethgelab/InDomainGeneralizationBen¡­', 'star': 19}
-{'reponame': 'DableUTeeF/keras-efficientnet', 'star': 17}
-{'reponame': 'koshian2/ResNet-MultipleFramework', 'star': 16}
-{'reponame': 'hysts/pytorch_resnet', 'star': 15}
-{'reponame': 'swasun/VQ-VAE-images', 'star': 15}
-{'reponame': 'DaikiTanak/manifold_mixup', 'star': 14}
-{'reponame': 'EstherBear/implementation-of-prunin¡­', 'star': 13}
-{'reponame': 'mbsariyildiz/resnet-pytorch', 'star': 13}
-{'reponame': 'ycao5602/SAL', 'star': 12}
-{'reponame': 'lab-midas/med_segmentation', 'star': 12}
-{'reponame': 'winycg/MCL-OKD', 'star': 12}
-{'reponame': 'rajneeshaggarwal/google-efficientnet', 'star': 11}
-{'reponame': 'dmizr/phuber', 'star': 11}
-{'reponame': 'anibali/dsnt-pose2d', 'star': 11}
-{'reponame': 'PPPrior/i3d-pytorch', 'star': 10}
-{'reponame': 'isheunesutembo/TB-Computer-Aided-Di¡­', 'star': 10}
-{'reponame': 'seyrankhademi/ResNet_CIFAR10', 'star': 9}
-{'reponame': 'hysts/pytorch_resnet_preact', 'star': 9}
-{'reponame': 'shtnkgm/VisionFrameworkSample', 'star': 9}
-{'reponame': 'asprenger/keras_fc_densenet', 'star': 9}
-{'reponame': 'varshaneya/Res-SE-Net', 'star': 9}
-{'reponame': 'Halesu/4th-ML100Days', 'star': 9}
-{'reponame': 'EdenMelaku/Transfer-Learning-Pytorc¡­', 'star': 9}
-{'reponame': 'EdenMelaku/Transfer-Learning-Pytorc¡­', 'star': 9}
-{'reponame': 'realmichaelye/Skin-Lesions-Classifi¡­', 'star': 8}
-{'reponame': 'amogh7joshi/fer', 'star': 8}
-{'reponame': 'ajithvallabai/getsetgo_keras-beginn¡­', 'star': 8}
-{'reponame': 'barmayo/spatial_attention', 'star': 8}
-{'reponame': 'wuqiyao20160118/mini_project-for-CI¡­', 'star': 8}
-{'reponame': 'anoushkrit/Knowledge', 'star': 8}
-{'reponame': 'amogh7joshi/engagement-detection', 'star': 8}
-{'reponame': 'vita-epfl/rock-pytorch', 'star': 7}
-{'reponame': 'iArunava/ResNet', 'star': 7}
-{'reponame': 'matakshay/Neural_Image_Caption_Gene¡­', 'star': 7}
-{'reponame': 'JayPatwardhan/ResNet-PyTorch', 'star': 7}
-{'reponame': 'MarkHershey/arxiv-dl', 'star': 6}
-{'reponame': 'rahul-t-p/ASVspoof-2019', 'star': 6}
-{'reponame': 'fL0n9/SKFAC-MindSpore', 'star': 6}
-{'reponame': 'magnificent1208/r3det-on-mmdetection', 'star': 6}
-{'reponame': 'jimheaton/Ultra96_ML_Embedded_Works¡­', 'star': 6}
-{'reponame': 'JaneliaSciComp/SongExplorer', 'star': 6}
-{'reponame': 'Thehunk1206/Covid-19-chest-X-ray', 'star': 6}
-{'reponame': 'Thehunk1206/Covid-19-covidcnn', 'star': 6}
-{'reponame': 'akhadangi/EM-net', 'star': 5}
-{'reponame': 'maxwelltsai/DeepGalaxy', 'star': 5}
-{'reponame': 'Sakib1263/1DResNet-KERAS', 'star': 5}
-{'reponame': 'greatsharma/DeepLearning-Papers-Imp¡­', 'star': 5}
-{'reponame': 'Baichenjia/Resnet', 'star': 5}
-{'reponame': 'Sakib1263/ResNet-Model-Builder-KERAS', 'star': 5}
-{'reponame': 'Sakib1263/ResNet-ResNetv2-ResNeXt-1¡­', 'star': 5}
-{'reponame': 'Sakib1263/ResNet-Model-Builder-Tens¡­', 'star': 5}
-{'reponame': 'Sakib1263/ResNet-ResNeXt-1D-2D-Tens¡­', 'star': 5}
-{'reponame': 'usnistgov/image-classification-resn¡­', 'star': 5}
-{'reponame': 'Sakib1263/DenseNet-1D-2D-Tensorflow¡­', 'star': 5}
-{'reponame': 'Sakib1263/1DResNet-Builder-KERAS', 'star': 5}
-{'reponame': 'patientzero/timage-icann2019', 'star': 5}
-{'reponame': 'Sakib1263/ResNet1D-Model-Builder-KE¡­', 'star': 5}
-{'reponame': 'JONGSKY/paper', 'star': 5}
-{'reponame': 'kwantommy/fgvc6-kaggle-cassava-clas¡­', 'star': 5}
-{'reponame': 'Punakshi/Deep-Residual-Learning-for¡­', 'star': 4}
-{'reponame': 'qubvel/resnet_152', 'star': 4}
-{'reponame': 'MichaelWangfc/distributed-tensorflo¡­', 'star': 4}
-{'reponame': 'jung-jun-uk/mixface', 'star': 4}
-{'reponame': 'fabiofumarola/ultrayolo', 'star': 4}
-{'reponame': 'shoji9x9/Fashion-MNIST-By-ResNet', 'star': 4}
-{'reponame': 'usnistgov/image-regression-resnet50', 'star': 4}
-{'reponame': 'Duplums/bhb10k-dl-benchmark', 'star': 4}
-{'reponame': 'jtcass01/SIMON', 'star': 4}
-{'reponame': 'gpleiss/limits_of_large_width', 'star': 4}
-{'reponame': 'nicolalandro/Padam', 'star': 3}
-{'reponame': 'c1ph3rr/Deep-Residual-Learning-for-¡­', 'star': 3}
-{'reponame': 'danielamassiceti/CCA-visualdialogue', 'star': 3}
-{'reponame': 'kun-woo-park/Deeplearning_project_S¡­', 'star': 3}
-{'reponame': 'brycexu/MR-Residual-Net', 'star': 3}
-{'reponame': 'shoji9x9/CIFAR-10-By-small-ResNet', 'star': 3}
-{'reponame': 'alalagong/LEDNet', 'star': 3}
-{'reponame': 'b8goal/PIRL-Residual-network', 'star': 3}
-{'reponame': 'pikkaay/efficientnet_gpu', 'star': 3}
-{'reponame': 'enzomuschik/distilfnd', 'star': 2}
-{'reponame': 'ls-da3m0ns/Short-ResNet', 'star': 2}
-{'reponame': 'IBM/NeuronAlignment', 'star': 2}
-{'reponame': 'fengredrum/cnn-xla', 'star': 2}
-{'reponame': 'RobotMobile/cv-deep-learning-paper-¡­', 'star': 2}
-{'reponame': 'sunlizhuang/YOLOv1-PaddlePaddle', 'star': 2}
-{'reponame': 'angelvillar96/FaceEmoji', 'star': 2}
-{'reponame': 'ollewelin/libtorch-GPU-CNN-test-MNI¡­', 'star': 2}
-{'reponame': 'Bao-Jiarong/ResNet', 'star': 2}
-{'reponame': 'pszemraj/BoulderAreaDetector', 'star': 2}
-{'reponame': 'sebsquire/Dogs-and-cats-image-class¡­', 'star': 2}
-{'reponame': 'serre-lab/gala_tpu', 'star': 2}
-{'reponame': 'AngusG/bn-advex-zhang-fixup', 'star': 2}
-{'reponame': 'shoaibahmed/CrossLayerPooling', 'star': 2}
-{'reponame': 'sebsquire/FlowersRecognition_keras', 'star': 2}
-{'reponame': 'hershd23/ObjectLocalizer', 'star': 2}
-{'reponame': 'saikrishnadas/ResNet-Pytorch', 'star': 2}
-{'reponame': 'rahulchaurasiya1/cautious-waddle', 'star': 2}
-{'reponame': 'interestingzhuo/foodretreival', 'star': 2}
-{'reponame': 'Glp91/fire-detection', 'star': 2}
-{'reponame': 'aurelien-peden/Deep-Learning-paper-¡­', 'star': 2}
-{'reponame': 'yangorwell/NGPlus', 'star': 2}
-{'reponame': 'CocoSungMin/Gachon_SW_Colorization_¡­', 'star': 2}
-{'reponame': 'Anderies/stochastic-constant-prunin¡­', 'star': 2}
-{'reponame': 'sammyamajumdar/ResNet50', 'star': 1}
-{'reponame': 'mabhay3420/Deep-Into-CNN', 'star': 1}
-{'reponame': 'xslidi/EfficientNets_ddl_apex', 'star': 1}
-{'reponame': 'vinod377/STN-OCR', 'star': 1}
-{'reponame': 'xcmyz/FaceDetection', 'star': 1}
-{'reponame': 'phillity/BioCapsule', 'star': 1}
-{'reponame': 'tiagoCuervo/JapaNet', 'star': 1}
-{'reponame': 'andrijdavid/clinical-brain-interfac¡­', 'star': 1}
-{'reponame': 'sidify/resnet_focal_loss', 'star': 1}
-{'reponame': 'JesonZhang822/Dogs-VS-Cats-Project', 'star': 1}
-{'reponame': 'ThanasisMattas/smartflow', 'star': 1}
-{'reponame': 'nsom/Basic-Models', 'star': 1}
-{'reponame': 'xinkuansong/modified-resnet-acc-0.9¡­', 'star': 1}
-{'reponame': 'SarthakGarg13/OTOMYCOSIS', 'star': 1}
-{'reponame': 'CodeChefVIT/VOID', 'star': 1}
-{'reponame': 'krishnakarthi/COVID-19_Prediction', 'star': 1}
-{'reponame': 'fabxy/accessibilityCV', 'star': 1}
-{'reponame': 'caojoshua/Plastic-Recyclability', 'star': 1}
-{'reponame': 'James-Gilbert-/medical-deep-learning', 'star': 1}
-{'reponame': 'LuigiRussoDev/Covid19Detection', 'star': 1}
-{'reponame': 'zjZSTU/ResNet', 'star': 1}
-{'reponame': 'anjandeepsahni/face_classification', 'star': 1}
-{'reponame': 'JanMarcelKezmann/Residual-Network-A¡­', 'star': 1}
-{'reponame': 'MioChiu/ResNet_TensorFlow', 'star': 1}
-{'reponame': 'gatheluck/Stronghold', 'star': 1}
-{'reponame': 'Rakshit-Shetty/Resnet-Implementation', 'star': 1}
-{'reponame': 'vayuvegula/kerasModels', 'star': 1}
-{'reponame': 'mminamina/Transfer_Learning_Naimish¡­', 'star': 1}
-{'reponame': 'VamsiKrishna1211/gender_age-detecti¡­', 'star': 1}
-{'reponame': 'xcmyz/Face_Binary_Classfication', 'star': 1}
-{'reponame': 'akommini/Spoken-Numeric-Digit-detec¡­', 'star': 1}
-{'reponame': 'vinod377/STN-OCR-Tensorflow', 'star': 1}
-{'reponame': 'KarimaCha/CNN_Trust_Prediction', 'star': 1}
-{'reponame': 'julik43/IIMAS-USCS', 'star': 1}
-{'reponame': 'mminamina/Transfer_Learning_ResNet1¡­', 'star': 1}
-{'reponame': 'ashishpatel26/BrainMRI-Segmentation¡­', 'star': 1}
-{'reponame': 'demul/ResidualNet', 'star': 1}
-{'reponame': 'DogeZen/resnet2onnx2tensorrt', 'star': 1}
-{'reponame': 'leemathew1998/RG', 'star': 1}
-{'reponame': 'TowardHumanizedInteraction/TripletF¡­', 'star': 1}
-{'reponame': 'northeastsquare/effficientnet', 'star': 1}
-{'reponame': 'James-Gilbert-/pneumonia-detection', 'star': 1}
-{'reponame': 'yudhisteer/Face-Recognition-with-Ma¡­', 'star': 1}
-{'reponame': 'vineeths96/Gradient-Compression', 'star': 1}
-{'reponame': 'nsom/VGG16', 'star': 1}
-{'reponame': 'jameswang287/Car-Detection', 'star': 1}
-{'reponame': 'CellSMB/EM-net', 'star': 1}
-{'reponame': 'KellyHwong/rethinking_generalization', 'star': 1}
-{'reponame': 'abaietto/neural_ode_classification', 'star': 1}
-{'reponame': 'saloni1998/Cifar-10', 'star': 1}
-{'reponame': 'NASA-NeMO-Net/NeMO-Net', 'star': 1}
-{'reponame': 'Jeongyun-Lee-0423/Classification', 'star': 1}
-{'reponame': 'anjandeepsahni/face_recognition', 'star': 1}
-{'reponame': 'xcmyz/Face-Binary-Classification', 'star': 1}
-{'reponame': 'ntrin/CIFAR_10_ML', 'star': 1}
-{'reponame': 'robertofranceschi/Image-classificat¡­', 'star': 1}
-{'reponame': 'aman-garg0001/fruit-classifier', 'star': 1}
-{'reponame': 'Kunaldargan/Paper-summerization--DE¡­', 'star': 0}
-{'reponame': 'yw0nam/DenseNet', 'star': 0}
-{'reponame': 'rishabmallick/Sign-language-live-pr¡­', 'star': 0}
-{'reponame': 'duchaba/Norwegian_Blue_Parrot_k2fa_¡­', 'star': 0}
-{'reponame': 'hustic/TinyImageSet', 'star': 0}
-{'reponame': 'souravverma94/pre_trained_imgclassi¡­', 'star': 0}
-{'reponame': 'bertrandlalo/deep_dog_breeds', 'star': 0}
-{'reponame': 'vineeths96/heterogeneous-systems', 'star': 0}
-{'reponame': 'kaseris/ILSVRCPlus', 'star': 0}
-{'reponame': 'sanoyo/dl-model', 'star': 0}
-{'reponame': 'hx19940102/Image-Segmentation-based¡­', 'star': 0}
-{'reponame': 'kimchigame/image-classfication-Resn¡­', 'star': 0}
-{'reponame': 'ewinata/CIFAR-10', 'star': 0}
-{'reponame': 'jday96314/Kuzushiji', 'star': 0}
-{'reponame': 'manoranjan03/PaperImplementations', 'star': 0}
-{'reponame': 'gsudllab/PaperTemplate', 'star': 0}
-{'reponame': 'suhas1999/Flip-kart-grid-challenge', 'star': 0}
-{'reponame': 'SiHaoShen/Convolutional-Neural-Netw¡­', 'star': 0}
-{'reponame': 'syiin/resnet_cancer_detection', 'star': 0}
-{'reponame': 'rickyHong/tfRecord-Caltech256-repl2', 'star': 0}
-{'reponame': 'yibeiou/Advanced_Business_Intellige¡­', 'star': 0}
-{'reponame': 'wisetrue95/Classification2020', 'star': 0}
-{'reponame': 'roth-andreas/papers-in-pytorch', 'star': 0}
-{'reponame': 'lxy000719/ResNet-50-pneumonia-class¡­', 'star': 0}
-{'reponame': 'maciejdomagala/DLWP_notes', 'star': 0}
-{'reponame': 'eryk-mazus/vision', 'star': 0}
-{'reponame': 'Rohed/ml-1', 'star': 0}
-{'reponame': 'tcheung99/ResNet_MiniProject', 'star': 0}
-{'reponame': 'axmoyal/Steganalysis-with-CNN', 'star': 0}
-{'reponame': 'trachpro/arcface-tf2', 'star': 0}
-{'reponame': 'alexwdong/IncubatorCVProject', 'star': 0}
-{'reponame': 'JContro/pytorch_projects', 'star': 0}
-{'reponame': '3P2S/arcface', 'star': 0}
-{'reponame': 'Olayemiy/Image-Classification-With-¡­', 'star': 0}
-{'reponame': 'adldotori/ResNet', 'star': 0}
-{'reponame': 'parviagrawal/IdenProf', 'star': 0}
-{'reponame': 'xhlulu/arxiv-assistant', 'star': 0}
-{'reponame': 'alex-f1tor/Image-Caption', 'star': 0}
-{'reponame': 'cocopambag/ResNet', 'star': 0}
-{'reponame': 'ariangc/breinchallenge', 'star': 0}
-{'reponame': 'MiX-S/resnet_cifar10', 'star': 0}
-{'reponame': 'melodyli9237/PokeTaipu', 'star': 0}
-{'reponame': 'VinayBN8997/ResNet-CIFAR10', 'star': 0}
-{'reponame': 'SethEBaldwin/Resnet', 'star': 0}
-{'reponame': 'vinay-EIP/EIP-session-5-assignment', 'star': 0}
-{'reponame': 'seishinkikuchi/test', 'star': 0}
-{'reponame': 'datoboat/Vehicle-Detection', 'star': 0}
-{'reponame': 'malin9402/2020-0221', 'star': 0}
-{'reponame': 'lkeonwoo94/DL_cv-mdt_NVIDIA_Cert_Co¡­', 'star': 0}
-{'reponame': 'hz2538/iot_JennyGo', 'star': 0}
-{'reponame': 'LuigiRussoDev/ResNets', 'star': 0}
-{'reponame': 'boris127/vehicle-detection', 'star': 0}
-{'reponame': 'kishorkuttan/traffic_net', 'star': 0}
-{'reponame': 'jvoynow/ConvNet-Architectures', 'star': 0}
-{'reponame': 'tazzaoui/capgen', 'star': 0}
-{'reponame': 'bclwan/MRI_Brain_Segmentation', 'star': 0}
-{'reponame': 'abuchin/resnet_sign', 'star': 0}
-{'reponame': 'akar5h/Image-Recognition-with-CNN-a¡­', 'star': 0}
-{'reponame': 'imkoushik22/Walmart-Hackathon', 'star': 0}
-{'reponame': 'yangboz/TransferLearning4Dentist', 'star': 0}
-{'reponame': 'eric-erki/IdenProf', 'star': 0}
-{'reponame': 'jiajunhua/facebookresearch-Detectron', 'star': 0}
-{'reponame': 'johngear/eecs504', 'star': 0}
-{'reponame': 'horse007666/ResNet', 'star': 0}
-{'reponame': 'danielparada1/RL_SpaceInvaders', 'star': 0}
-{'reponame': 'Vamshi399/CarND-Vehicle-Detection', 'star': 0}
-{'reponame': 'mr-bulb/DL_basic_github', 'star': 0}
-{'reponame': 'ankit-vaghela30/Google-landmark-pre¡­', 'star': 0}
-{'reponame': 'wangyuan249/Mymmt767', 'star': 0}
-{'reponame': 'MaxSkippGriff/ResNet', 'star': 0}
-{'reponame': 'amogh7joshi/plant-health-detection', 'star': 0}
-{'reponame': 'lixihan/Resnet', 'star': 0}
-{'reponame': 'linainsaf/RESNET50_PNEUMONIA_DETECT¡­', 'star': 0}
-{'reponame': 'JHLee0513/Salt_detection_challenge', 'star': 0}
-{'reponame': 'astoycos/Mini_Project2', 'star': 0}
-{'reponame': 'UnofficialJuliaMirror/DeepMark-deep¡­', 'star': 0}
-{'reponame': 'JoeTracey/Portfolio', 'star': 0}
-{'reponame': 'CrossEntropy/Gesture-images-recogni¡­', 'star': 0}
-{'reponame': 'kiranu1024/deep-learning', 'star': 0}
-{'reponame': 'syiin/ann_cancer_detection', 'star': 0}
-{'reponame': 'konstantinos-p/image_classification¡­', 'star': 0}
-{'reponame': 'wonjaek36/sodeep_final', 'star': 0}
-{'reponame': 'Zachdr1/CNNs', 'star': 0}
-{'reponame': 'EricEntrup/reference', 'star': 0}
-{'reponame': 'OoO256/cifar10-resnet', 'star': 0}
-{'reponame': 'KatherineBaq/NMA-CN2021-fMRI_vs_DNNs', 'star': 0}
-{'reponame': 'leemathew1998/GradientWeight', 'star': 0}
-{'reponame': 'MaxwellHeller/coffee_fraud_detection', 'star': 0}
-{'reponame': 'UnofficialJuliaMirrorSnapshots/Deep¡­', 'star': 0}
-{'reponame': 'seansoleyman/cifar10-resnet', 'star': 0}
-{'reponame': 't0930198/backup', 'star': 0}
-{'reponame': 'Sangkwun/Resnet', 'star': 0}
-{'reponame': 'dssbxx/k_labels_resnet50', 'star': 0}
-{'reponame': 'oxygen0605/ImageClassification', 'star': 0}
-{'reponame': 'sumitkutty/Anti-Spoof-Face-Recognit¡­', 'star': 0}
-{'reponame': 'sangHa0411/ResNetCIFAR100', 'star': 0}
-{'reponame': 'sangHa0411/CIFAR100', 'star': 0}
-{'reponame': 'shao-chi/ImageCaption', 'star': 0}
-{'reponame': 'yashclone999/ResNet_MODEL', 'star': 0}
-{'reponame': 'musifahamran/FYP', 'star': 0}
-{'reponame': 'gundeep15/SCD_AI_Project', 'star': 0}
-{'reponame': 'ben-davidson-6/fixup', 'star': 0}
-{'reponame': 'madao33/computer-vision-learning', 'star': 0}
-{'reponame': 'CanshangD/ResNet_tensorflow2.0', 'star': 0}
-{'reponame': 'CorneliusHsiao/FoodMethodGAN', 'star': 0}
+{'repo name': 'tensorflow/models', 'star': 72404}
+{'repo name': 'tensorflow/models', 'star': 72402}
+{'repo name': 'tensorflow/models', 'star': 72401}
+{'repo name': 'fastai/fastai', 'star': 21792}
+{'repo name': 'JaidedAI/EasyOCR', 'star': 13519}
+{'repo name': 'pytorch/vision', 'star': 10655}
+{'repo name': 'fchollet/deep-learning-models', 'star': 7011}
+{'repo name': 'tensorpack/tensorpack', 'star': 6142}
+{'repo name': 'tensorpack/tensorpack', 'star': 6142}
+{'repo name': 'PaddlePaddle/PaddleDetection', 'star': 6107}
+{'repo name': 'labmlai/annotated_deep_learning_pap¡­', 'star': 5849}
+{'repo name': 'yahoo/open_nsfw', 'star': 5542}
+{'repo name': 'PaddlePaddle/PaddleClas', 'star': 3214}
+{'repo name': 'google/flax', 'star': 2525}
+{'repo name': 'osmr/imgclsmob', 'star': 2426}
+{'repo name': 'facebookarchive/fb.resnet.torch', 'star': 2110}
+{'repo name': 'facebook/fb.resnet.torch', 'star': 2110}
+{'repo name': 'qubvel/efficientnet', 'star': 1928}
+{'repo name': 'keras-team/keras-applications', 'star': 1913}
+{'repo name': 'facebookresearch/pycls', 'star': 1822}
+{'repo name': 'deepmind/dm-haiku', 'star': 1642}
+{'repo name': 'ry/tensorflow-resnet', 'star': 1610}
+{'repo name': 'open-mmlab/mmpose', 'star': 1518}
+{'repo name': 'raghakot/keras-resnet', 'star': 1323}
+{'repo name': 'open-mmlab/mmclassification', 'star': 1018}
+{'repo name': 'wenxinxu/resnet-in-tensorflow', 'star': 829}
+{'repo name': 'wenxinxu/resnet_in_tensorflow', 'star': 829}
+{'repo name': 'NVIDIA/retinanet-examples', 'star': 780}
+{'repo name': 'akamaster/pytorch_resnet_cifar10', 'star': 722}
+{'repo name': 'deepmodeling/deepmd-kit', 'star': 710}
+{'repo name': 'glouppe/info8010-deep-learning', 'star': 710}
+{'repo name': 'HHTseng/video-classification', 'star': 682}
+{'repo name': 'researchmm/SiamDW', 'star': 673}
+{'repo name': 'facebookresearch/DomainBed', 'star': 593}
+{'repo name': 'D-X-Y/ResNeXt-DenseNet', 'star': 574}
+{'repo name': 'gcr/torch-residual-networks', 'star': 554}
+{'repo name': 'yoshitomo-matsubara/torchdistill', 'star': 510}
+{'repo name': 'bentrevett/pytorch-image-classifica¡­', 'star': 485}
+{'repo name': 'xiaoyufenfei/LEDNet', 'star': 466}
+{'repo name': 'kyle-dorman/bayesian-neural-network¡­', 'star': 413}
+{'repo name': 'yxgeee/MMT', 'star': 398}
+{'repo name': 'andreasveit/densenet-pytorch', 'star': 379}
+{'repo name': 'DeepMark/deepmark', 'star': 359}
+{'repo name': 'itijyou/ademxapp', 'star': 336}
+{'repo name': 'felixgwu/img_classification_pk_pyto¡­', 'star': 333}
+{'repo name': 'segmentationblwx/sssegmentation', 'star': 277}
+{'repo name': 'kwotsin/TensorFlow-ENet', 'star': 254}
+{'repo name': 'calmisential/TensorFlow2.0_ResNet', 'star': 223}
+{'repo name': 'jiweibo/imagenet', 'star': 181}
+{'repo name': 'peteryuX/arcface-tf2', 'star': 177}
+{'repo name': 'EricAlcaide/MiniFold', 'star': 173}
+{'repo name': 'vietanhdev/open-adas', 'star': 170}
+{'repo name': 'OlafenwaMoses/IdenProf', 'star': 170}
+{'repo name': 'SJTU-Thinklab-Det/r3det-on-mmdetect¡­', 'star': 163}
+{'repo name': 'GKalliatakis/Keras-VGG16-places365', 'star': 156}
+{'repo name': 'MishaLaskin/vqvae', 'star': 149}
+{'repo name': 'MishaLaskin/vq-vae', 'star': 149}
+{'repo name': 'wondonghyeon/protest-detection-viol¡­', 'star': 134}
+{'repo name': 'hongyi-zhang/Fixup', 'star': 131}
+{'repo name': 'facebookresearch/stochastic_gradien¡­', 'star': 128}
+{'repo name': 'OlafenwaMoses/Traffic-Net', 'star': 123}
+{'repo name': 'rtanno21609/AdaptiveNeuralTrees', 'star': 123}
+{'repo name': 'FrancescoSaverioZuppichini/ResNet', 'star': 117}
+{'repo name': 'alrojo/lasagne_residual_network', 'star': 117}
+{'repo name': 'YudeWang/UNet-Satellite-Image-Segme¡­', 'star': 103}
+{'repo name': 'chrhenning/hypercl', 'star': 102}
+{'repo name': 'alexsax/midlevel-reps', 'star': 93}
+{'repo name': 'makatx/YOLO_ResNet', 'star': 93}
+{'repo name': 'mingxingtan/efficientnet', 'star': 86}
+{'repo name': 'alecwangcq/KFAC-Pytorch', 'star': 81}
+{'repo name': 'alvarobartt/serving-pytorch-models', 'star': 77}
+{'repo name': 'paperswithcode/paperswithcode-client', 'star': 75}
+{'repo name': 'Mayurji/Image-Classification-PyTorch', 'star': 72}
+{'repo name': 'marload/ConvNets-TensorFlow2', 'star': 71}
+{'repo name': 'hycis/TensorGraph', 'star': 69}
+{'repo name': 'oskyhn/CNNs-Without-Borders', 'star': 67}
+{'repo name': 'sayakpaul/Adaptive-Gradient-Clipping', 'star': 64}
+{'repo name': 'mhagiwara/nanigonet', 'star': 59}
+{'repo name': 'OlafenwaMoses/Action-Net', 'star': 50}
+{'repo name': 'Masao-Taketani/FOTS_OCR', 'star': 49}
+{'repo name': 'ChangweiZhang/Awesome-WindowsML-ONN¡­', 'star': 43}
+{'repo name': 'thughost2/Padam', 'star': 38}
+{'repo name': 'nitinvwaran/UrbanSound8K-audio-clas¡­', 'star': 38}
+{'repo name': 'uclaml/Padam', 'star': 38}
+{'repo name': 'CVxTz/face_age_gender', 'star': 38}
+{'repo name': 'mindspore-ai/models', 'star': 31}
+{'repo name': 'mindspore-ai/models', 'star': 31}
+{'repo name': 'aby2s/sharpmask', 'star': 31}
+{'repo name': 'mindspore-ai/models', 'star': 31}
+{'repo name': 'mindspore-ai/models', 'star': 31}
+{'repo name': 'vlievin/Unet', 'star': 31}
+{'repo name': 'deontaepharr/Residual-Attention-Net¡­', 'star': 30}
+{'repo name': 'km1414/CNN-models', 'star': 29}
+{'repo name': 'amazon-research/long-short-term-tra¡­', 'star': 27}
+{'repo name': 'priyavrat-misra/xrays-and-gradcam', 'star': 27}
+{'repo name': 'Lornatang/ResNet-PyTorch', 'star': 25}
+{'repo name': 'Graylab/deepH3-distances-orientatio¡­', 'star': 25}
+{'repo name': 'anguyen8/sam', 'star': 24}
+{'repo name': 'KellerJordan/ResNet-PyTorch-CIFAR10', 'star': 23}
+{'repo name': 'lixixibj/tsImage-forecasting', 'star': 22}
+{'repo name': 'lixixibj/forecasting-with-time-seri¡­', 'star': 22}
+{'repo name': 'bethgelab/InDomainGeneralizationBen¡­', 'star': 19}
+{'repo name': 'DableUTeeF/keras-efficientnet', 'star': 17}
+{'repo name': 'koshian2/ResNet-MultipleFramework', 'star': 16}
+{'repo name': 'swasun/VQ-VAE-images', 'star': 15}
+{'repo name': 'hysts/pytorch_resnet', 'star': 15}
+{'repo name': 'DaikiTanak/manifold_mixup', 'star': 14}
+{'repo name': 'mbsariyildiz/resnet-pytorch', 'star': 13}
+{'repo name': 'EstherBear/implementation-of-prunin¡­', 'star': 13}
+{'repo name': 'lab-midas/med_segmentation', 'star': 12}
+{'repo name': 'winycg/MCL-OKD', 'star': 12}
+{'repo name': 'ycao5602/SAL', 'star': 12}
+{'repo name': 'rajneeshaggarwal/google-efficientnet', 'star': 11}
+{'repo name': 'dmizr/phuber', 'star': 11}
+{'repo name': 'anibali/dsnt-pose2d', 'star': 11}
+{'repo name': 'isheunesutembo/TB-Computer-Aided-Di¡­', 'star': 10}
+{'repo name': 'PPPrior/i3d-pytorch', 'star': 10}
+{'repo name': 'varshaneya/Res-SE-Net', 'star': 9}
+{'repo name': 'EdenMelaku/Transfer-Learning-Pytorc¡­', 'star': 9}
+{'repo name': 'asprenger/keras_fc_densenet', 'star': 9}
+{'repo name': 'EdenMelaku/Transfer-Learning-Pytorc¡­', 'star': 9}
+{'repo name': 'Halesu/4th-ML100Days', 'star': 9}
+{'repo name': 'seyrankhademi/ResNet_CIFAR10', 'star': 9}
+{'repo name': 'hysts/pytorch_resnet_preact', 'star': 9}
+{'repo name': 'shtnkgm/VisionFrameworkSample', 'star': 9}
+{'repo name': 'barmayo/spatial_attention', 'star': 8}
+{'repo name': 'realmichaelye/Skin-Lesions-Classifi¡­', 'star': 8}
+{'repo name': 'ajithvallabai/getsetgo_keras-beginn¡­', 'star': 8}
+{'repo name': 'anoushkrit/Knowledge', 'star': 8}
+{'repo name': 'wuqiyao20160118/mini_project-for-CI¡­', 'star': 8}
+{'repo name': 'amogh7joshi/fer', 'star': 8}
+{'repo name': 'amogh7joshi/engagement-detection', 'star': 8}
+{'repo name': 'vita-epfl/rock-pytorch', 'star': 7}
+{'repo name': 'iArunava/ResNet', 'star': 7}
+{'repo name': 'JayPatwardhan/ResNet-PyTorch', 'star': 7}
+{'repo name': 'matakshay/Neural_Image_Caption_Gene¡­', 'star': 7}
+{'repo name': 'JaneliaSciComp/SongExplorer', 'star': 6}
+{'repo name': 'Thehunk1206/Covid-19-chest-X-ray', 'star': 6}
+{'repo name': 'fL0n9/SKFAC-MindSpore', 'star': 6}
+{'repo name': 'rahul-t-p/ASVspoof-2019', 'star': 6}
+{'repo name': 'Thehunk1206/Covid-19-covidcnn', 'star': 6}
+{'repo name': 'jimheaton/Ultra96_ML_Embedded_Works¡­', 'star': 6}
+{'repo name': 'MarkHershey/arxiv-dl', 'star': 6}
+{'repo name': 'magnificent1208/r3det-on-mmdetection', 'star': 6}
+{'repo name': 'qubvel/resnet_152', 'star': 5}
+{'repo name': 'Sakib1263/ResNet-ResNetv2-ResNeXt-1¡­', 'star': 5}
+{'repo name': 'Sakib1263/DenseNet-1D-2D-Tensorflow¡­', 'star': 5}
+{'repo name': 'akhadangi/EM-net', 'star': 5}
+{'repo name': 'Sakib1263/ResNet-ResNeXt-1D-2D-Tens¡­', 'star': 5}
+{'repo name': 'Sakib1263/ResNet-Model-Builder-Tens¡­', 'star': 5}
+{'repo name': 'JONGSKY/paper', 'star': 5}
+{'repo name': 'Sakib1263/ResNet-Model-Builder-KERAS', 'star': 5}
+{'repo name': 'usnistgov/image-classification-resn¡­', 'star': 5}
+{'repo name': 'Sakib1263/1DResNet-KERAS', 'star': 5}
+{'repo name': 'Sakib1263/ResNet1D-Model-Builder-KE¡­', 'star': 5}
+{'repo name': 'maxwelltsai/DeepGalaxy', 'star': 5}
+{'repo name': 'kwantommy/fgvc6-kaggle-cassava-clas¡­', 'star': 5}
+{'repo name': 'patientzero/timage-icann2019', 'star': 5}
+{'repo name': 'Sakib1263/1DResNet-Builder-KERAS', 'star': 5}
+{'repo name': 'greatsharma/DeepLearning-Papers-Imp¡­', 'star': 5}
+{'repo name': 'Baichenjia/Resnet', 'star': 5}
+{'repo name': 'Duplums/bhb10k-dl-benchmark', 'star': 4}
+{'repo name': 'jtcass01/SIMON', 'star': 4}
+{'repo name': 'MichaelWangfc/distributed-tensorflo¡­', 'star': 4}
+{'repo name': 'jung-jun-uk/mixface', 'star': 4}
+{'repo name': 'gpleiss/limits_of_large_width', 'star': 4}
+{'repo name': 'fabiofumarola/ultrayolo', 'star': 4}
+{'repo name': 'Punakshi/Deep-Residual-Learning-for¡­', 'star': 4}
+{'repo name': 'usnistgov/image-regression-resnet50', 'star': 4}
+{'repo name': 'shoji9x9/Fashion-MNIST-By-ResNet', 'star': 4}
+{'repo name': 'pikkaay/efficientnet_gpu', 'star': 3}
+{'repo name': 'shoji9x9/CIFAR-10-By-small-ResNet', 'star': 3}
+{'repo name': 'brycexu/MR-Residual-Net', 'star': 3}
+{'repo name': 'b8goal/PIRL-Residual-network', 'star': 3}
+{'repo name': 'kun-woo-park/Deeplearning_project_S¡­', 'star': 3}
+{'repo name': 'alalagong/LEDNet', 'star': 3}
+{'repo name': 'nicolalandro/Padam', 'star': 3}
+{'repo name': 'danielamassiceti/CCA-visualdialogue', 'star': 3}
+{'repo name': 'c1ph3rr/Deep-Residual-Learning-for-¡­', 'star': 3}
+{'repo name': 'fengredrum/cnn-xla', 'star': 2}
+{'repo name': 'CocoSungMin/Gachon_SW_Colorization_¡­', 'star': 2}
+{'repo name': 'Bao-Jiarong/ResNet', 'star': 2}
+{'repo name': 'Anderies/stochastic-constant-prunin¡­', 'star': 2}
+{'repo name': 'serre-lab/gala_tpu', 'star': 2}
+{'repo name': 'aurelien-peden/Deep-Learning-paper-¡­', 'star': 2}
+{'repo name': 'AngusG/bn-advex-zhang-fixup', 'star': 2}
+{'repo name': 'rahulchaurasiya1/cautious-waddle', 'star': 2}
+{'repo name': 'RobotMobile/cv-deep-learning-paper-¡­', 'star': 2}
+{'repo name': 'saikrishnadas/ResNet-Pytorch', 'star': 2}
+{'repo name': 'hershd23/ObjectLocalizer', 'star': 2}
+{'repo name': 'angelvillar96/FaceEmoji', 'star': 2}
+{'repo name': 'shoaibahmed/CrossLayerPooling', 'star': 2}
+{'repo name': 'enzomuschik/distilfnd', 'star': 2}
+{'repo name': 'yangorwell/NGPlus', 'star': 2}
+{'repo name': 'IBM/NeuronAlignment', 'star': 2}
+{'repo name': 'sebsquire/Dogs-and-cats-image-class¡­', 'star': 2}
+{'repo name': 'ollewelin/libtorch-GPU-CNN-test-MNI¡­', 'star': 2}
+{'repo name': 'sebsquire/FlowersRecognition_keras', 'star': 2}
+{'repo name': 'interestingzhuo/foodretreival', 'star': 2}
+{'repo name': 'sunlizhuang/YOLOv1-PaddlePaddle', 'star': 2}
+{'repo name': 'pszemraj/BoulderAreaDetector', 'star': 2}
+{'repo name': 'ls-da3m0ns/Short-ResNet', 'star': 2}
+{'repo name': 'Glp91/fire-detection', 'star': 2}
+{'repo name': 'James-Gilbert-/pneumonia-detection', 'star': 1}
+{'repo name': 'nsom/VGG16', 'star': 1}
+{'repo name': 'leemathew1998/RG', 'star': 1}
+{'repo name': 'julik43/IIMAS-USCS', 'star': 1}
+{'repo name': 'xcmyz/Face_Binary_Classfication', 'star': 1}
+{'repo name': 'fabxy/accessibilityCV', 'star': 1}
+{'repo name': 'nsom/Basic-Models', 'star': 1}
+{'repo name': 'JesonZhang822/Dogs-VS-Cats-Project', 'star': 1}
+{'repo name': 'phillity/BioCapsule', 'star': 1}
+{'repo name': 'xcmyz/FaceDetection', 'star': 1}
+{'repo name': 'xcmyz/Face-Binary-Classification', 'star': 1}
+{'repo name': 'anjandeepsahni/face_recognition', 'star': 1}
+{'repo name': 'saloni1998/Cifar-10', 'star': 1}
+{'repo name': 'gatheluck/Stronghold', 'star': 1}
+{'repo name': 'xinkuansong/modified-resnet-acc-0.9¡­', 'star': 1}
+{'repo name': 'northeastsquare/effficientnet', 'star': 1}
+{'repo name': 'TowardHumanizedInteraction/TripletF¡­', 'star': 1}
+{'repo name': 'KarimaCha/CNN_Trust_Prediction', 'star': 1}
+{'repo name': 'robertofranceschi/Image-classificat¡­', 'star': 1}
+{'repo name': 'mminamina/Transfer_Learning_ResNet1¡­', 'star': 1}
+{'repo name': 'Jeongyun-Lee-0423/Classification', 'star': 1}
+{'repo name': 'sammyamajumdar/ResNet50', 'star': 1}
+{'repo name': 'aman-garg0001/fruit-classifier', 'star': 1}
+{'repo name': 'James-Gilbert-/medical-deep-learning', 'star': 1}
+{'repo name': 'LuigiRussoDev/Covid19Detection', 'star': 1}
+{'repo name': 'akommini/Spoken-Numeric-Digit-detec¡­', 'star': 1}
+{'repo name': 'demul/ResidualNet', 'star': 1}
+{'repo name': 'KellyHwong/rethinking_generalization', 'star': 1}
+{'repo name': 'abaietto/neural_ode_classification', 'star': 1}
+{'repo name': 'NASA-NeMO-Net/NeMO-Net', 'star': 1}
+{'repo name': 'ntrin/CIFAR_10_ML', 'star': 1}
+{'repo name': 'andrijdavid/clinical-brain-interfac¡­', 'star': 1}
+{'repo name': 'sidify/resnet_focal_loss', 'star': 1}
+{'repo name': 'SarthakGarg13/OTOMYCOSIS', 'star': 1}
+{'repo name': 'krishnakarthi/COVID-19_Prediction', 'star': 1}
+{'repo name': 'JanMarcelKezmann/Residual-Network-A¡­', 'star': 1}
+{'repo name': 'MioChiu/ResNet_TensorFlow', 'star': 1}
+{'repo name': 'vayuvegula/kerasModels', 'star': 1}
+{'repo name': 'jameswang287/Car-Detection', 'star': 1}
+{'repo name': 'CellSMB/EM-net', 'star': 1}
+{'repo name': 'mabhay3420/Deep-Into-CNN', 'star': 1}
+{'repo name': 'xslidi/EfficientNets_ddl_apex', 'star': 1}
+{'repo name': 'vinod377/STN-OCR', 'star': 1}
+{'repo name': 'tiagoCuervo/JapaNet', 'star': 1}
+{'repo name': 'ThanasisMattas/smartflow', 'star': 1}
+{'repo name': 'CodeChefVIT/VOID', 'star': 1}
+{'repo name': 'caojoshua/Plastic-Recyclability', 'star': 1}
+{'repo name': 'zjZSTU/ResNet', 'star': 1}
+{'repo name': 'anjandeepsahni/face_classification', 'star': 1}
+{'repo name': 'Rakshit-Shetty/Resnet-Implementation', 'star': 1}
+{'repo name': 'mminamina/Transfer_Learning_Naimish¡­', 'star': 1}
+{'repo name': 'VamsiKrishna1211/gender_age-detecti¡­', 'star': 1}
+{'repo name': 'vinod377/STN-OCR-Tensorflow', 'star': 1}
+{'repo name': 'ashishpatel26/BrainMRI-Segmentation¡­', 'star': 1}
+{'repo name': 'DogeZen/resnet2onnx2tensorrt', 'star': 1}
+{'repo name': 'yudhisteer/Face-Recognition-with-Ma¡­', 'star': 1}
+{'repo name': 'vineeths96/Gradient-Compression', 'star': 1}
+{'repo name': 'MiX-S/resnet_cifar10', 'star': 0}
+{'repo name': 'ariangc/breinchallenge', 'star': 0}
+{'repo name': 'astoycos/Mini_Project2', 'star': 0}
+{'repo name': 'cocopambag/ResNet', 'star': 0}
+{'repo name': 'alex-f1tor/Image-Caption', 'star': 0}
+{'repo name': 'CrossEntropy/Gesture-images-recogni¡­', 'star': 0}
+{'repo name': 'xhlulu/arxiv-assistant', 'star': 0}
+{'repo name': 'MaxwellHeller/coffee_fraud_detection', 'star': 0}
+{'repo name': 'wangyuan249/Mymmt767', 'star': 0}
+{'repo name': 'parviagrawal/IdenProf', 'star': 0}
+{'repo name': 'adldotori/ResNet', 'star': 0}
+{'repo name': 'Olayemiy/Image-Classification-With-¡­', 'star': 0}
+{'repo name': 'yashclone999/ResNet_MODEL', 'star': 0}
+{'repo name': '3P2S/arcface', 'star': 0}
+{'repo name': 'MaxSkippGriff/ResNet', 'star': 0}
+{'repo name': 'amogh7joshi/plant-health-detection', 'star': 0}
+{'repo name': 'JContro/pytorch_projects', 'star': 0}
+{'repo name': 'alexwdong/IncubatorCVProject', 'star': 0}
+{'repo name': 'trachpro/arcface-tf2', 'star': 0}
+{'repo name': 'linainsaf/RESNET50_PNEUMONIA_DETECT¡­', 'star': 0}
+{'repo name': 'axmoyal/Steganalysis-with-CNN', 'star': 0}
+{'repo name': 'tcheung99/ResNet_MiniProject', 'star': 0}
+{'repo name': 'Rohed/ml-1', 'star': 0}
+{'repo name': 'maciejdomagala/DLWP_notes', 'star': 0}
+{'repo name': 'lxy000719/ResNet-50-pneumonia-class¡­', 'star': 0}
+{'repo name': 'roth-andreas/papers-in-pytorch', 'star': 0}
+{'repo name': 'wisetrue95/Classification2020', 'star': 0}
+{'repo name': 't0930198/backup', 'star': 0}
+{'repo name': 'yibeiou/Advanced_Business_Intellige¡­', 'star': 0}
+{'repo name': 'syiin/resnet_cancer_detection', 'star': 0}
+{'repo name': 'SiHaoShen/Convolutional-Neural-Netw¡­', 'star': 0}
+{'repo name': 'gsudllab/PaperTemplate', 'star': 0}
+{'repo name': 'jday96314/Kuzushiji', 'star': 0}
+{'repo name': 'ewinata/CIFAR-10', 'star': 0}
+{'repo name': 'kaseris/ILSVRCPlus', 'star': 0}
+{'repo name': 'vineeths96/heterogeneous-systems', 'star': 0}
+{'repo name': 'bertrandlalo/deep_dog_breeds', 'star': 0}
+{'repo name': 'souravverma94/pre_trained_imgclassi¡­', 'star': 0}
+{'repo name': 'UnofficialJuliaMirror/DeepMark-deep¡­', 'star': 0}
+{'repo name': 'duchaba/Norwegian_Blue_Parrot_k2fa_¡­', 'star': 0}
+{'repo name': 'rishabmallick/Sign-language-live-pr¡­', 'star': 0}
+{'repo name': 'yw0nam/DenseNet', 'star': 0}
+{'repo name': 'JoeTracey/Portfolio', 'star': 0}
+{'repo name': 'musifahamran/FYP', 'star': 0}
+{'repo name': 'oxygen0605/ImageClassification', 'star': 0}
+{'repo name': 'kiranu1024/deep-learning', 'star': 0}
+{'repo name': 'CorneliusHsiao/FoodMethodGAN', 'star': 0}
+{'repo name': 'hustic/TinyImageSet', 'star': 0}
+{'repo name': 'Sangkwun/Resnet', 'star': 0}
+{'repo name': 'syiin/ann_cancer_detection', 'star': 0}
+{'repo name': 'sanoyo/dl-model', 'star': 0}
+{'repo name': 'hx19940102/Image-Segmentation-based¡­', 'star': 0}
+{'repo name': 'wonjaek36/sodeep_final', 'star': 0}
+{'repo name': 'kimchigame/image-classfication-Resn¡­', 'star': 0}
+{'repo name': 'Zachdr1/CNNs', 'star': 0}
+{'repo name': 'EricEntrup/reference', 'star': 0}
+{'repo name': 'OoO256/cifar10-resnet', 'star': 0}
+{'repo name': 'manoranjan03/PaperImplementations', 'star': 0}
+{'repo name': 'ben-davidson-6/fixup', 'star': 0}
+{'repo name': 'madao33/computer-vision-learning', 'star': 0}
+{'repo name': 'leemathew1998/GradientWeight', 'star': 0}
+{'repo name': 'suhas1999/Flip-kart-grid-challenge', 'star': 0}
+{'repo name': 'UnofficialJuliaMirrorSnapshots/Deep¡­', 'star': 0}
+{'repo name': 'seansoleyman/cifar10-resnet', 'star': 0}
+{'repo name': 'Kunaldargan/Paper-summerization--DE¡­', 'star': 0}
+{'repo name': 'rickyHong/tfRecord-Caltech256-repl2', 'star': 0}
+{'repo name': 'tazzaoui/capgen', 'star': 0}
+{'repo name': 'bclwan/MRI_Brain_Segmentation', 'star': 0}
+{'repo name': 'akar5h/Image-Recognition-with-CNN-a¡­', 'star': 0}
+{'repo name': 'gundeep15/SCD_AI_Project', 'star': 0}
+{'repo name': 'dssbxx/k_labels_resnet50', 'star': 0}
+{'repo name': 'konstantinos-p/image_classification¡­', 'star': 0}
+{'repo name': 'yangboz/TransferLearning4Dentist', 'star': 0}
+{'repo name': 'eric-erki/IdenProf', 'star': 0}
+{'repo name': 'jiajunhua/facebookresearch-Detectron', 'star': 0}
+{'repo name': 'KatherineBaq/NMA-CN2021-fMRI_vs_DNNs', 'star': 0}
+{'repo name': 'sumitkutty/Anti-Spoof-Face-Recognit¡­', 'star': 0}
+{'repo name': 'horse007666/ResNet', 'star': 0}
+{'repo name': 'danielparada1/RL_SpaceInvaders', 'star': 0}
+{'repo name': 'mr-bulb/DL_basic_github', 'star': 0}
+{'repo name': 'sangHa0411/ResNetCIFAR100', 'star': 0}
+{'repo name': 'sangHa0411/CIFAR100', 'star': 0}
+{'repo name': 'mnguyen0226/image-augmentation-dnn-¡­', 'star': 0}
+{'repo name': 'ankit-vaghela30/Google-landmark-pre¡­', 'star': 0}
+{'repo name': 'CanshangD/ResNet_tensorflow2.0', 'star': 0}
+{'repo name': 'shao-chi/ImageCaption', 'star': 0}
+{'repo name': 'eryk-mazus/vision', 'star': 0}
+{'repo name': 'lixihan/Resnet', 'star': 0}
+{'repo name': 'JHLee0513/Salt_detection_challenge', 'star': 0}
+{'repo name': 'imkoushik22/Walmart-Hackathon', 'star': 0}
+{'repo name': 'abuchin/resnet_sign', 'star': 0}
+{'repo name': 'jvoynow/ConvNet-Architectures', 'star': 0}
+{'repo name': 'kishorkuttan/traffic_net', 'star': 0}
+{'repo name': 'boris127/vehicle-detection', 'star': 0}
+{'repo name': 'LuigiRussoDev/ResNets', 'star': 0}
+{'repo name': 'hz2538/iot_JennyGo', 'star': 0}
+{'repo name': 'lkeonwoo94/DL_cv-mdt_NVIDIA_Cert_Co¡­', 'star': 0}
+{'repo name': 'johngear/eecs504', 'star': 0}
+{'repo name': 'malin9402/2020-0221', 'star': 0}
+{'repo name': 'datoboat/Vehicle-Detection', 'star': 0}
+{'repo name': 'seishinkikuchi/test', 'star': 0}
+{'repo name': 'vinay-EIP/EIP-session-5-assignment', 'star': 0}
+{'repo name': 'SethEBaldwin/Resnet', 'star': 0}
+{'repo name': 'VinayBN8997/ResNet-CIFAR10', 'star': 0}
+{'repo name': 'melodyli9237/PokeTaipu', 'star': 0}
+{'repo name': 'Vamshi399/CarND-Vehicle-Detection', 'star': 0}
+
