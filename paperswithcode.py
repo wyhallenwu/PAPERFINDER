@@ -4,7 +4,6 @@ import json
 
 import requests
 from bs4 import BeautifulSoup
-from mymodule import get_exec_time
 
 
 class PaperWithCode(object):
@@ -114,7 +113,6 @@ class PaperWithCode(object):
 
     # TODO(2021-01-08): crawl dataset
 
-    @get_exec_time
     def process_pipeline(self, title, path='./dataset'):
         """processing pipeline of crawling by title."""
         print('starting processing...')

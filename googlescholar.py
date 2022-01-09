@@ -1,6 +1,5 @@
 from scholarly import scholarly
-from connectedpapers_dl import download_with_title
-from mymodule import get_exec_time
+from connectedpapers import download_with_title
 
 
 # from scholarly import ProxyGenerator
@@ -8,7 +7,6 @@ from mymodule import get_exec_time
 # pg.FreeProxies()
 # scholarly.use_proxy(pg)
 
-@get_exec_time
 def search_by_name(search_name):
     # Retrieve the author's data, fill-in, and print
     print('running')
